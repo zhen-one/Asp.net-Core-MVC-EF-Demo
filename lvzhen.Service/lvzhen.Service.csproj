@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Lvzhen.DAL\Lvzhen.DAL.csproj" />
+    <ProjectReference Include="..\Lvzhen.Model\Lvzhen.Model.csproj" />
+    <ProjectReference Include="..\Lvzhen.Repository\Lvzhen.Repository.csproj" />
+  </ItemGroup>
+
+</Project>

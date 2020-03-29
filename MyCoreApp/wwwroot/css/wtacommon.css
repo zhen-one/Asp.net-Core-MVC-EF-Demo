@@ -1,0 +1,135 @@
+@CHARSET "UTF-8";
+
+.mainBox {
+    width: 90%;
+    position: relative;
+    left: 5%;
+    height: 820px;
+}
+
+.mainBody {
+    background: white;
+    padding: 10px;
+}
+
+.status {
+    display: block;
+    color: red;
+    font-size: 10em;
+    text-align: center;
+}
+
+.dataDiv {
+    margin-top: 10px;
+    border: 1px solid cornflowerblue;
+    border-radius: 4px;
+}
+
+.head {
+    height: 90px;
+    font-size: 24px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.headLeft {
+    width: 40%;
+    border-right: 2px solid cornflowerblue;
+    float: left;
+    text-align: right;
+    padding-right: 10px;
+    letter-spacing: 5px;
+}
+
+.headRight {
+    float: left;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.tab {
+    height: 30px;
+    /*margin: 5px;*/
+}
+
+.tabButton {
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: cornflowerblue;
+    outline: none;
+    margin-left: 10%;
+    height: 100%;
+}
+
+.requireDiv {
+    height: 80px;
+    border: 1px solid cornflowerblue;
+    border-radius: 4px;
+}
+
+.require1 {
+    height: 30px;
+    background: cornflowerblue;
+    color: white;
+    text-align: center;
+    line-height: 1.7;
+}
+
+.require2 {
+    height: 50px;
+}
+
+.echartsDiv {
+    height: 650px;
+}
+
+.echartsPain {
+    border: 1px solid black;
+    height: 300px;
+    width: 500px;
+    float: left;
+    margin-left: 6%;
+    margin-top: 1%;
+}
+
+.chartOption {
+    width: 500px;
+    height: 300px;
+}
+
+.requireOption {
+    width: 25%;
+    float: left;
+    margin: 10px;
+}
+
+.requireButton {
+    margin: 10px;
+    border-radius: 4px;
+    outline: none;
+    background: cornflowerblue;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    color: white;
+    width: 100px;
+}
+
+.requireButton {
+    transform: scale(1);
+    border-radius: 6px;
+}
+
+    .requireButton:hover {
+        background-color: aquamarine;
+    }
+
+.controlSpan {
+    margin-left: 25px;
+}
+
+#dropdownlist {
+    width: 173px;
+}
+
